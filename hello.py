@@ -11,3 +11,9 @@ class hello:
     halo = profile.getUser()
     return render.index(halo=halo, password = password)
 
+class page:
+  def GET(self):
+    return render.page()
+
+
+

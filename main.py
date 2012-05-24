@@ -2,7 +2,8 @@ import web
 from hello import *
 
 urls = (
-            '/', 'hello'
+            '/', 'hello',
+	    '/page/', 'page',
                     )
 
 
