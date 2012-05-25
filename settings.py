@@ -8,7 +8,7 @@ def db():
 
 def render():
     render = render_jinja(
-                  'templates/ginstitute/',                 # Set template directory.
+                  'templates/ginstitute/',     # Set template directory.
                    encoding = 'utf-8',         # Encoding.
                            )
     return render

@@ -1,5 +1,9 @@
 import web
-from models import profile, database
+import os, sys
+lib_path = os.path.abspath('../')
+sys.path.append(lib_path)
+
+from models import database, profile
 from settings import db, render
 
 db = db()

@@ -1,5 +1,5 @@
 import web
-from hello import *
+from controllers.hello import *
 
 urls = (
             '/', 'hello',
