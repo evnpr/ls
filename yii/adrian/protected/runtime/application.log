@@ -1,0 +1,448 @@
+2012/08/12 10:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:34:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:35:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:35:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:37:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:38:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:39:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:40:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 10:41:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:44:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:44:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('gallery')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('gallery')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gallery')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/gallery
+---
+2012/08/12 10:47:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "order".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('order')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('order')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/order')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/site/order
+---
+2012/08/12 11:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "e/order".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('e/order')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/index.php/e/order
+HTTP_REFERER=http://localhost/yii/adrian/site/index
+---
+2012/08/12 11:05:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "e/order".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('e/order')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/index.php/e/order
+HTTP_REFERER=http://localhost/yii/adrian/site/index
+---
+2012/08/12 11:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manufacturer".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('manufacturer')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('manufacturer')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/manufactur...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/index.php/site/manufacturer
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/order
+---
+2012/08/12 11:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sourc/site/jquery.fancybox.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/sourc/si...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/assets/sourc/site/jquery.fancybox.css?v=2.0.6
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sourc/site/helpers/jquery.fancybox-buttons.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/sourc/si...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/assets/sourc/site/helpers/jquery.fancybox-buttons.css?v=1.0.2
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:07:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sourc/site/jquery.fancybox.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/sourc/si...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/assets/sourc/site/jquery.fancybox.js?v=2.0.6
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sourc/site/helpers/jquery.fancybox-thumbs.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/sourc/si...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/assets/sourc/site/helpers/jquery.fancybox-thumbs.js?v=1.0.2
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sourc/site/helpers/jquery.fancybox-thumbs.css".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/sourc/si...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/assets/sourc/site/helpers/jquery.fancybox-thumbs.css?v=1.0.2
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:07:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sourc/site/helpers/jquery.fancybox-media.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/sourc/si...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/assets/sourc/site/helpers/jquery.fancybox-media.js?v=1.0.0
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:07:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/sourc/site/helpers/jquery.fancybox-buttons.js".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('assets/sourc/si...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/assets/sourc/site/helpers/jquery.fancybox-buttons.js?v=1.0.2
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:08:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manufacturer".' in C:\xampp\htdocs\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(271): CController->missingAction('manufacturer')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('manufacturer')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/manufactur...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/adrian/index.php/site/manufacturer
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/gallery
+---
+2012/08/12 11:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "e/>/site/_head".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('e/>/site/_head')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/index.phpe/%3E/site/_head
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/Mbody
+---
+2012/08/12 11:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "e/>/site/mbody".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('e/>/site/mbody')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/adrian/index.phpe/%3E/site/mbody
+HTTP_REFERER=http://localhost/yii/adrian/index.php/site/Mbody
+---
+2012/08/12 11:43:22 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.halo" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii\adrian\protected\views\layouts\main.php(85): CComponent->__get('halo')
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 C:\xampp\htdocs\yii\adrian\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#9 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\adrian\protected\controllers\SiteController.php(34): CController->render('home')
+#13 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CController->run('')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii\adrian\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/adrian/index.php/
+HTTP_REFERER=http://localhost/yii/adrian/index.php
+---

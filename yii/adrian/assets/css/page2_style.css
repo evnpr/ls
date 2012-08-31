@@ -1,0 +1,56 @@
+.wrong_email_ver{
+	display:none;
+	height:20px;
+	padding: 1px 1px;
+	margin-top:0px;
+	margin-bottom:9px;
+	margin-left:10px;	
+}
+.correct_email_ver{
+	display:none;
+	height:20px;
+	padding: 1px 1px;
+	margin-top:0px;
+	margin-bottom:9px;
+	margin-left:10px;	
+}
+.cannot_blank{
+	display:none;
+	height:20px;
+	padding: 1px 1px;
+	margin-top:0px;
+	margin-bottom:9px;
+	margin-left:10px;	
+}
+#submit_my_order:hover{
+	cursor:pointer;	
+}
+input[type="radio"]{
+	vertical-align:top;
+}
+#form_header{
+	display:none;
+}
+.prev_error{
+	display:none;
+}
+.upl_error{
+	display:none;
+	margin-top:2px;
+}
+form p i{
+	margin-top:1px;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

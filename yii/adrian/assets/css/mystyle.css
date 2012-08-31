@@ -1,0 +1,30 @@
+#header{
+    margin-top:-20px;
+}
+
+
+#logo{
+    margin: 10px;
+}
+/*added by yudho on 26/7*/
+button i {  /*for offsetting minus sign to be at the center of the button*/
+	margin-left:0px;
+}
+li center span{   /*to deal with number in school thumbnail*/	
+	font-size:14px;
+	
+}
+li center button{ /*to make the super mini button allignment nice*/	
+	margin-top:-7px;
+	width:15px;
+}
+li img{/*to give the image inside thumbnail a small gap*/
+	margin-top:1px;
+}
+#page1_next:hover{
+	cursor:pointer;
+}
+#alert_order{
+	display:none;
+}
+/*till here*/

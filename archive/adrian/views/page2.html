@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Adrian - Bubble Head!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<input type="hidden" id="from_where" value="1" /> <!-- to be modified with server side scripting -->
+	<input type="hidden" id="_ordertype" value="Buy 1" /> <!-- to be modified with server side scripting -->
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="../assets/css/page2_style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div id="header" class="row" style="margin-top:-60px;">
+        <div id="logo" class="span3">
+            <img src="" height="60" width="150" />
+        </div>
+        <div id="search" class="span3 offset6" style="height:58px;">
+            <form class="form-search" style="margin-top: 15px">
+            <input type="text" class="input-medium search-query" placeholder="search here">
+            <button type="submit" class="btn">Go</button>
+            </form>
+        </div>
+    </div>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">BubbleHead</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">Order Now</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+		<div name="form_header" id="form_header">
+			<div id="type">
+				<table border="0">
+					<tr>
+						<td>Order Type	&nbsp </td>
+						<td>: <select id="ordertype" onchange="orderType(this)" class="span2" >
+							   <option value="Buy 1">Buy 1</option>
+							   <option value="Buy 3">Buy 3</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Quantity &nbsp </td>
+						<td>:
+							<input type="text" id="quantity" onblur="change_quantity(this);" value="1"/>
+						</td>
+						<td>
+							<div class="alert alert-error cannot_blank" id="wrong_quantity"></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+      <!-- Main hero unit for a primary marketing message or call to action -->
+         <h2>Form Order</h2> 
+<br>
+<div id="data">
+<div id="data0" number="0" name="data" style="display:none;">
+<div id="name" class="row">
+	<div id="name" class="span6">
+		<!-- <form action="order"  method="post" accept-charset="utf-8">  --> <!-- modified by yudho 27/7 -->
+		
+		<form  id="form_main" method="post" ilove="you" accept-charset="utf-8">
+		<table border="0">
+			<tr>
+				<td>Name  </td>
+				<td>: <input type="text" name="name" value=""></td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>Gender  </td>
+				<td>: <input type="radio" name="gender" value="m"  /> Male  <input type="radio" name="gender" value="f"   /> Female</td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>School  </td>
+				<td>: <select  class="span2 school2" >
+							<option value=""></option>
+							<option value="EEE">EEE</option>
+							<option value="NBS">NBS</option>
+							<option value="SBS">SBS</option>
+				</select>
+				</td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>Email  </td>
+				<td>: <input type="text" name="email" value=""></td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>Verify email  </td>
+				<td>: <input type="text"  name="verifyemail" onblur="verify_email(this);" value=""></td>
+				<td><div class="alert alert-error wrong_email_ver"></div><div class="alert alert-success correct_email_ver"></div><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>Grad Year  </td>
+				<td>: <select id="gradyear" class="span2" >
+							<option value=""></option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>							
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+							<option value="2007">2007</option>
+							<option value="2006">2006</option>
+							<option value="2005">2005</option>
+							<option value="2004">2004</option>
+							<option value="2003">2003</option>
+							<option value="2002">2002</option>
+							<option value="2001">2001</option>
+							<option value="2000">2000</option>
+							<option value="1999">1999</option>
+							<option value="1998">1998</option>
+							<option value="1997">1997</option>
+							<option value="1996">1996</option>
+							<option value="1995">1995</option>
+							<option value="1994">1994</option>
+							<option value="1993">1993</option>
+							<option value="1992">1992</option>
+							<option value="1991">1991</option>	
+							<option value="1990">1990</option>	
+						</select>
+				</td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+		</table>
+		<br>
+		<!-- <input id ="submit_my_order" type="submit" value="Submit Order" class="btn-primary btn-large" style="position: absolute; margin-top: 280px;"> --> <!-- modified by yudho 27/7 -->
+		</form>
+	</div>
+	<div id="name" class="span5">
+		<img src="" height="230" width="200"/>
+	</div>
+</div>
+
+<div class="row">
+<div class="span12">
+<ul class="thumbnails">
+<div class="span3">
+  <li class="span2">
+    <a class="thumbnail">
+        <img id="blah" src="http://placehold.it/150x180"   width="150px" height="180px" alt="" />
+    </a>
+    <form action="page2_submit" method="get" accept-charset="utf-8">
+     <input type="file" class="prev" name="upload1" value="" onchange="readURL(this);";>
+	<div class="alert alert-error prev_error"></div>
+   <span onclick="upload_it(this);" class="btn btn-danger upl"><i class="icon-upload icon-white"></i>  Upload</span><div class="alert alert-error upl_error"></div><input type="hidden" value="0"/></input>
+    </form>
+  </li>
+</div>
+<div class="span3">
+  <li class="span2">
+  <li class="span2">
+    <a class="thumbnail">
+      <img src="http://placehold.it/150x180"  width="150px" height="180px" alt="">
+    </a>
+    <form action="page2_submit" method="get" accept-charset="utf-8">
+     <input type="file" name="upload1" value=""  onchange="readURL(this);";>
+    <p><span class="btn btn-danger"><i class="icon-upload icon-white"></i>  Upload</span></p>
+    </form>
+  </li>
+</div>
+<div class="span3">
+  <li class="span2">
+  <li class="span2">
+    <a class="thumbnail">
+      <img src="http://placehold.it/150x180"  width="150px" height="180px" alt="">
+    </a>
+    <form action="page2_submit" method="get" accept-charset="utf-8">
+     <input type="file" name="upload1" value="" onchange="readURL(this);";>
+     <p><span class="btn btn-danger"><i class="icon-upload icon-white"></i>  Upload</span></p>
+    </form>
+  </li>
+</div>
+<div class="span3">
+  <li class="span2">
+  <li class="span2">
+    <a class="thumbnail">
+      <img src="http://placehold.it/150x180"   width="150px" height="180px" alt="">
+    </a>
+    <form action="" method="get" accept-charset="utf-8">
+     <input type="file" name="upload1" value="" onchange="readURL(this);";>
+     <p><span class="btn btn-danger"><i class="icon-upload icon-white"></i>  Upload</span></p>
+    </form>
+  </li>
+</div>
+</ul>
+
+</div>
+</div>
+ </div>
+<div id="data1" number="1" name="data">
+<div id="name" class="row">
+	<div id="name" class="span6">
+		<!-- <form action="order"  method="post" accept-charset="utf-8">  --> <!-- modified by yudho 27/7 -->
+		
+		<form  id="form_main" method="post" ilove="you" accept-charset="utf-8">
+		<table border="0">
+			<tr>
+				<td>Name  </td>
+				<td>: <input type="text" name="name" value=""></td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>Gender  </td>
+				<td>: <input type="radio" name="gender" value="m"  /> Male  <input type="radio" name="gender" value="f"   /> Female</td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>School  </td>
+				<td>: <select  class="span2 school2" >
+							<option value=""></option>
+							<option value="EEE">EEE</option>
+							<option value="NBS">NBS</option>
+							<option value="SBS">SBS</option>
+					</select>
+				</td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>Email  </td>
+				<td>: <input type="text"  name="email" value=""></td>
+				<td><div class="alert alert-error cannot_blank"></div></td>
+			</tr>
+			<tr>
+				<td>Verify email  </td>
+				<td>: <input type="text" name="verifyemail" onblur="verify_email(this);" value=""></td>
+				<td><div class="alert alert-error wrong_email_ver"></div><div class="alert alert-success correct_email_ver"></div><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+			<tr>
+				<td>Grad Year  </td>
+				<td>: <select id="gradyear" class="span2" >
+							<option value=""></option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>							
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+							<option value="2007">2007</option>
+							<option value="2006">2006</option>
+							<option value="2005">2005</option>
+							<option value="2004">2004</option>
+							<option value="2003">2003</option>
+							<option value="2002">2002</option>
+							<option value="2001">2001</option>
+							<option value="2000">2000</option>
+							<option value="1999">1999</option>
+							<option value="1998">1998</option>
+							<option value="1997">1997</option>
+							<option value="1996">1996</option>
+							<option value="1995">1995</option>
+							<option value="1994">1994</option>
+							<option value="1993">1993</option>
+							<option value="1992">1992</option>
+							<option value="1991">1991</option>	
+							<option value="1990">1990</option>	
+						</select>
+				</td>
+				<td><div class="alert alert-error cannot_blank" ></div></td>
+			</tr>
+		</table>
+		<br>
+		<!-- <input id ="submit_my_order" type="submit" value="Submit Order" class="btn-primary btn-large" style="position: absolute; margin-top: 280px;"> --> <!-- modified by yudho 27/7 -->
+		</form>
+	</div>
+	<div id="name" class="span5">
+		<img src="" height="230" width="200"/>
+	</div>
+</div>
+
+<div class="row">
+<div class="span12">
+<ul class="thumbnails">
+<div class="span3">
+  <li class="span2">
+    <a class="thumbnail">
+        <img id="blah" src="http://placehold.it/150x180"   width="150px" height="180px" alt="" />
+    </a>
+    <form action="page2_submit" method="get" accept-charset="utf-8">
+     <input type="file" class="prev" name="upload1" value="" onchange="readURL(this);";>
+	 <div class="alert alert-error prev_error"></div>
+    <span onclick="upload_it(this);"  class="btn btn-danger upl"><i class="icon-upload icon-white"></i>  Upload</span><div class="alert alert-error upl_error"></div><input type="hidden" value="0"></input>
+    </form>
+  </li>
+</div>
+<div class="span3">
+  <li class="span2">
+  <li class="span2">
+    <a class="thumbnail">
+      <img src="http://placehold.it/150x180"  width="150px" height="180px" alt="">
+    </a>
+    <form action="page2_submit" method="get" accept-charset="utf-8">
+     <input type="file" name="upload1" value=""  onchange="readURL(this);";>
+     <p><span class="btn btn-danger"><i class="icon-upload icon-white"></i>  Upload</span></p>
+    </form>
+  </li>
+</div>
+<div class="span3">
+  <li class="span2">
+  <li class="span2">
+    <a class="thumbnail">
+      <img src="http://placehold.it/150x180"  width="150px" height="180px" alt="">
+    </a>
+    <form action="page2_submit" method="get" accept-charset="utf-8">
+     <input type="file" name="upload1" value="" onchange="readURL(this);";>
+     <p><span class="btn btn-danger"><i class="icon-upload icon-white"></i>  Upload</span></p>
+    </form>
+  </li>
+</div>
+<div class="span3">
+  <li class="span2">
+  <li class="span2">
+    <a class="thumbnail">
+      <img src="http://placehold.it/150x180"   width="150px" height="180px" alt="">
+    </a>
+    <form action="" method="get" accept-charset="utf-8">
+     <input type="file" name="upload1" value="" onchange="readURL(this);";>
+     <p><span class="btn btn-danger"><i class="icon-upload icon-white"></i>  Upload</span></p>
+    </form>
+  </li>
+</div>
+</ul>
+
+</div>
+</div>
+ </div>
+ </div>
+<div style="clear:both"></div>
+     
+
+      <footer>
+	  <span id ="submit_my_order"  class="btn btn-primary btn-small" >Submit Order</span>
+	 <br>
+<br>
+<br>
+<br>
+<br>
+	 <hr>
+	  <p>&copy; Company 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/jquery-scrolltofixed.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+	 <script src="../assets/js/page2_main.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+                    $('.navbar').scrollToFixed();
+        });
+    </script>
+        
+
+  </body>
+</html>
